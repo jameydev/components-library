@@ -27,4 +27,10 @@
 
 .list-item {
     list-style: none;
+    margin: 1.25rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--txt-color);
 }

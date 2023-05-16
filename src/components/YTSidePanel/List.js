@@ -4,7 +4,11 @@ export default function List(props) {
     const {ordered, items} = props;
 
     const itemList = items.map(item => {
-        return (<li key={item.id} className="list-item">{item.icon} &nbsp; {item.name}</li>);
+        return (
+            <li key={item.id} className="list-item">
+                <a href="{item.link}">{item.icon} &nbsp; {item.name}</a>
+            </li>
+        );
     });
 
     return ordered ? (

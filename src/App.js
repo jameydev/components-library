@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-// import './App.css';
+import './App.css';
 import SideMenu from "./components/YTSidePanel/SideMenu";
 import './components/YTSidePanel/style/SideMenu.css';
 
